@@ -5,13 +5,14 @@ body{
     border: 1px black solid; 
     text-align: center;
     height: 50px;
-    text-decoration-color: antiquewhite;
 }
 .nav{
+    display: flex;
+    justify-content: center;
     border: 1px black solid;
-    text-align: center;
+    /*text-align: center;*/
     height: 30px;
-    background-color: black;
+    background-color: blue;
 }
 .hero {
     border: 1px black solid;
@@ -27,4 +28,13 @@ body{
     border: 1px black solid;
     text-align: center;
     height: 80px;
+}
+.nav-button-group
+ {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-buttons{
+    display: inline-block;
 }
