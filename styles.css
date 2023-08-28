@@ -28,7 +28,7 @@ body{
 .footer{
     background-color: lightslategrey;
     text-align: center;
-    height: 80px;
+    height: 30px;
 }
 .nav-button-group{
     width: 350px;
@@ -37,6 +37,12 @@ body{
     align-items: center;
 }
 .nav-buttons{
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+}
+.nav-buttons:hover{
+    font-size: 20px;
     color: white;
     display: inline-block;
 }
